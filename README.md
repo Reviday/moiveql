@@ -19,3 +19,6 @@ yarn add graphql-yoga
 
 # #4 Creating the first Query and Resolver
 - schema : 받거나 줄 정보에 대한 서술이라고 보면 됨
+
+# #8 Defining Mutations
+- Mutation : Database 상태가 변할 때 사용되는 것
