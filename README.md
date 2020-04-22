@@ -16,3 +16,6 @@ yarn add graphql-yoga
     ```
     하나의 Query로 필요한 정보만 가져올 수 있다.
     ```
+
+# #4 Creating the first Query and Resolver
+- schema : 받거나 줄 정보에 대한 서술이라고 보면 됨

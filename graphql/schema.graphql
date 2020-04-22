@@ -1,0 +1,6 @@
+# 사용자가 무엇을 할지에 대해서 정의
+# 1) Database로 부터 정보를 얻는 것 - Query.
+
+type Query {
+    name: String!
+}
