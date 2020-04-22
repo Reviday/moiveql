@@ -2,11 +2,13 @@
 # 1) Database로 부터 정보를 얻는 것 - Query.
 
 type Person {
-    name: String!
+    id: Int!
+    name: String! 
     age: Int!
     gender: String!
 }
 
 type Query {
-    person: Person!
+    people: [Person]!
+    person(id: Int!): Person
 }
