@@ -7,8 +7,8 @@
   "author": "reviday<reviday@naver.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3",
-    "node-fetch": "^2.6.0"
+    "axios": "^0.19.2",
+    "graphql-yoga": "^1.18.3"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"

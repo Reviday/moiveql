@@ -1,15 +1,15 @@
-# 사용자가 무엇을 할지에 대해서 정의
-# 1) Database로 부터 정보를 얻는 것 - Query.
-
 type Movie {
-    id: Int!
-    title: String! 
-    rating: Float!
-    summary: String!
-    language: String!
-    medium_cover_image: String!
+  id: Int!
+  title: String!
+  rating: Float
+  description_intro: String
+  language: String
+  medium_cover_image: String
+  genres: [String]
 }
 
 type Query {
-    movies(limit: Int, rating: Float): [Movie]!
+  movies(limit: Int, rating: Float): [Movie]!
+  movie(id: Int!): Movie
+  suggestions(id: Int!): [Movie]!
 }
